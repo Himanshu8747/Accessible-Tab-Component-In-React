@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0;
+    width:600px;
+    list-style: none;
+    text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
